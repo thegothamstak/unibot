@@ -1,6 +1,4 @@
-import { FaRobot } from "react-icons/fa";
-import Link from "next/link";
-import SmoothLink from "./SmoothLink";
+import SmoothLink from "../commons/SmoothLink";
 
 export default function Header() {
   return (

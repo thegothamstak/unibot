@@ -1,4 +1,5 @@
 import { FaComment, FaUsers, FaBolt } from "react-icons/fa";
+import FeatureCard from "../commons/FeatureCard";
 
 export default function Features() {
   return (
@@ -6,27 +7,21 @@ export default function Features() {
       <div className="container mx-auto px-4 md:px-16">
         <h1 className="text-3xl md:text-4xl font-bold text-white text-center mb-12">What UniBot does ?</h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-gradient-to-br from-white to-blue-50 p-6 rounded-xl shadow-md hover:shadow-lg hover:scale-105 transition-transform duration-300 animate-slide-in">
-            <FaComment className="text-5xl text-blue-500 mx-auto mb-4" />
-            <h3 className="text-xl font-bold text-gray-800 mb-2 text-center">Instant Answers</h3>
-            <p className="text-base text-gray-600 text-center">
-                Get immediate responses to your academic and campus questions
-            </p>
-          </div>
-          <div className="bg-gradient-to-br from-white to-blue-50 p-6 rounded-xl shadow-md hover:shadow-lg hover:scale-105 transition-transform duration-300 animate-slide-in">
-            <FaUsers className="text-5xl text-blue-500 mx-auto mb-4" />
-            <h3 className="text-xl font-bold text-gray-800 mb-2 text-center">Personalized Support</h3>
-            <p className="text-base text-gray-600 text-center">
-              Tailored guidance based on your academic journey and interests
-            </p>
-          </div>
-          <div className="bg-gradient-to-br from-white to-blue-50 p-6 rounded-xl shadow-md hover:shadow-lg hover:scale-105 transition-transform duration-300 animate-slide-in">
-            <FaBolt className="text-5xl text-blue-500 mx-auto mb-4" />
-            <h3 className="text-xl font-bold text-gray-800 mb-2 text-center">Always Available</h3>
-            <p className="text-base text-gray-600 text-center">
-              24/7 accessibility whenever you need academic assistance
-            </p>
-          </div>
+          <FeatureCard
+            Icon={FaComment}
+            title="Instant Answers"
+            description="Get immediate responses to your academic and campus questions"
+          />
+          <FeatureCard
+            Icon={FaUsers}
+            title="Academic Support"
+            description="Access personalized resources and study tips tailored to your needs"
+          />
+          <FeatureCard
+            Icon={FaBolt}
+            title="24/7 Guidance"
+            description="Receive round-the-clock assistance for all your university queries"
+          />
         </div>
       </div>
     </section>
