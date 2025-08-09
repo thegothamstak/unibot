@@ -8,7 +8,7 @@ function SmoothLink({ href, children, ...props }) {
       const id = href.substring(1);
       const element = document.getElementById(id);
       if (element) {
-        const yOffset = -80; // offset in pixels (space from top)
+        const yOffset = -80;
         const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
 
         window.scrollTo({ top: y, behavior: "smooth" });
