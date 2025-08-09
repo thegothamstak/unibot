@@ -28,7 +28,7 @@ export default function Header() {
           </li>
         </ul>
         <button
-          className="bg-blue-500 text-white px-4 py-2 rounded-lg font-semibold hover:from-blue-600 hover:to-purple-700 transition-colors"
+          className="bg-blue-500 text-white px-4 py-2 rounded-lg font-semibold cursor-pointer hover:bg-green-500"
         >
           Get Started
         </button>

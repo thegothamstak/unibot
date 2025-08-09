@@ -17,7 +17,7 @@ export default function About() {
             <p className="text-lg mb-6">
               We are a passionate team dedicated to revolutionizing student life with UniBot, an intelligent chatbot designed to simplify university navigation. UniBot provides instant answers, personalized academic support, and 24/7 guidance, empowering students to focus on what matters most—their education and growth.
             </p>
-            <button className="bg-white text-blue-600 px-6 py-3 rounded font-semibold hover:bg-gray-100 inline-flex items-center space-x-2">
+            <button className="bg-white text-blue-600 px-6 py-3 rounded font-semibold cursor-pointer hover:bg-gray-400 hover:text-white inline-flex items-center space-x-2">
               <span>Learn More</span>
               <FaArrowRight className="text-blue-600" />
             </button>

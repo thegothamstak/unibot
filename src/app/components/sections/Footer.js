@@ -54,16 +54,16 @@ export default function Footer() {
           <div className="flex-1 text-center md:text-left">
             <h3 className="text-lg font-bold text-black mb-2">Connect</h3>
             <div className="flex justify-center md:justify-start space-x-4 text-gray-500">
-              <a href="https://x.com" className="hover:text-blue-600">
+              <a href="" className="hover:text-blue-600">
                 <FaTwitter className="text-2xl" />
               </a>
-              <a href="https://reddit.com" className="hover:text-blue-600">
+              <a href="" className="hover:text-blue-600">
                 <FaReddit className="text-2xl" />
               </a>
-              <a href="https://linkedin.com" className="hover:text-blue-600">
+              <a href="" className="hover:text-blue-600">
                 <FaLinkedin className="text-2xl" />
               </a>
-              <a href="https://gmail.com" className="hover:text-blue-600">
+              <a href="" className="hover:text-blue-600">
                 <FaEnvelope className="text-2xl" />
               </a>
             </div>

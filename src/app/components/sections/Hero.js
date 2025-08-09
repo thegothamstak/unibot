@@ -61,13 +61,13 @@ export default function Hero() {
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <button
-                  className="bg-white text-blue-600 px-6 py-3 rounded font-semibold hover:bg-gray-100 flex items-center justify-center space-x-2 w-full sm:w-auto"
+                  className="bg-white text-blue-600 px-6 py-3 rounded font-semibold cursor-pointer hover:bg-gray-400 hover:text-white flex items-center justify-center space-x-2 w-full sm:w-auto"
                 >
                   <span>Join Waitlist</span>
                   <FaArrowRight className="text-blue-600" />
                 </button>
                 <button
-                  className="bg-white text-blue-600 px-6 py-3 rounded font-semibold hover:bg-gray-100 flex items-center justify-center space-x-2 w-full sm:w-auto"
+                  className="bg-white text-blue-600 px-6 py-3 rounded font-semibold cursor-pointer hover:bg-gray-400 hover:text-white flex items-center justify-center space-x-2 w-full sm:w-auto"
                 >
                   Learn More
                 </button>
